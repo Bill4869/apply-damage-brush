@@ -16,6 +16,6 @@ bash test.sh
 ```
 python main.py --target ./input/wood3.jpg --brushesRoot ./brush/moss/feathered_cropped_brush --usePoisson True
 ```
-see `options.py` for more options about gride size, sigma or threshold for generating probability map.
+See `options.py` for more options about gride size, sigma or threshold for generating probability map.
 
-see `main.py` line 77 to manipulate the probability.
+See `main.py` line 77 to manipulate the probability.
