@@ -1,5 +1,4 @@
 import numpy
-import imageio
 import skimage
 import skimage.io, skimage.filters
 

@@ -86,7 +86,6 @@ def blend(img_target, img_source, img_mask, offset=(0, 0)):
 
 
 def poisson(mask, source, target):
-    print("Blending using Poisson Image Editing...")
     img_mask = np.array(mask)
     # img_mask.flags.writeable = True
     img_source = np.array(source)

@@ -1,9 +1,8 @@
 import glob
-import cv2
 import os
 import numpy as np
 from math import sqrt
-from PIL import Image, ImageFilter
+from PIL import Image
 
 
 # Calculate the Euclidean distance between two vectors
