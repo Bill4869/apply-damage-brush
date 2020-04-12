@@ -1,5 +1,5 @@
 # Apply damage brushes to texture using noise
-
+![pasting](./demonstration/pasting.JPG)
 ### Prerequisites
 - Python
 - numpy
