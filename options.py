@@ -11,7 +11,7 @@ class BaseOptions():
         self.parser.add_argument('--brushesRoot', help='path to brush folder')
         self.parser.add_argument('--output', default='./result/', help='path to output results')
         self.parser.add_argument('--gridScale', type=int, default=1, help='grid scale')
-        self.parser.add_argument('--usePoisson', type=bool,default=False, help='use poisson or not')
+        self.parser.add_argument('--usePoisson', default=False, action='store_true' help='use poisson or not')
 
         self.parser.add_argument('--sigma', type=int, default=20, help='sigma for gaussian filter')
         self.parser.add_argument('--threshold', type=int, default=20, help='the bigger threshold is, the bigger probability area in map gets')
