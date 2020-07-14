@@ -14,7 +14,7 @@ bash test.sh
 ```
 **OR**
 ```
-python main.py --target ./input/wood3.jpg --brushesRoot ./brush/moss/feathered_cropped_brush --usePoisson True
+python main.py --target ./input/wood3.jpg --brushesRoot ./brush/moss/feathered_cropped_brush --usePoisson
 ```
 See `options.py` for more options about gride size, sigma or threshold for generating probability map.
 
